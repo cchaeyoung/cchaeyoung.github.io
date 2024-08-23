@@ -7,7 +7,7 @@ categories:
 tags:
   - [tag1, tag2]
 
-permalink: /categories2/post-name-here-2/
+permalink: /categories1/post-name-here-2/
 
 toc: true
 toc_sticky: true
