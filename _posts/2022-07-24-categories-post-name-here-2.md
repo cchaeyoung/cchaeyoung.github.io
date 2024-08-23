@@ -3,7 +3,7 @@ title: "[Algorithm] 기본 자료구조"
 excerpt: "기본 자료구조"
 
 categories:
-  - Categories2
+  - Categories1
 tags:
   - [tag1, tag2]
 
