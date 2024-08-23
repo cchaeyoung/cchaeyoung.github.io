@@ -19,10 +19,10 @@ main:
 # 2022.02.15 sidebar update : simple ver.
 categories:
   - title: "Algorithm"
-    url: /Algorithm/기본 자료구조/
+    url: /categories/categories1/
   - title: "C/C++"
-    url: /C//C++/categories1/
+    url: /categories/categories2/
   - title: "Python"
-    url: /Python/categories1/
+    url: /categories/categories3/
   - title: "Web"
-    url: /Web/categories1/
+    url: /categories/categories4/
