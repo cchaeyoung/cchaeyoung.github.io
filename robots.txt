@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cchaeyoung.github.io/sitemap.xml
