@@ -1,0 +1,20 @@
+---
+title: "파이썬"
+excerpt: "파이썬"
+
+categories:
+  - Python
+tags:
+  - [Python]
+
+permalink: /python/1
+
+toc: true
+toc_sticky: true
+
+date: 2024-03-28
+last_modified_at: 2024-03-28
+---
+
+## 파이썬
+
