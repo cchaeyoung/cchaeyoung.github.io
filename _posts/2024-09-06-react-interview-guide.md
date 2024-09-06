@@ -55,7 +55,9 @@ last_modified_at: 2024-09-05
 - 다양한 프레임워크와 라이브러리의 활용법
 - 리액트 애플리케이션 구축 및 코딩 과제 접근법
 
-  <img src="/assets/images/posts_img/frontend/example-code.jpg" alt="Example Code" style="width:300px; height:300px;"> <img src="/assets/images/posts_img/frontend/tech-explanation.jpg" alt="Tech Explanation" style="width:300px; height:300px;">
-
+<div style="display: flex; overflow-x: auto; white-space: nowrap;">
+  <img src="/assets/images/posts_img/frontend/example-code.jpg" alt="Example Code" style="width:300px; height:300px; display: inline-block;">　
+  <img src="/assets/images/posts_img/frontend/tech-explanation.jpg" alt="Tech Explanation" style="width:300px; height:300px; display: inline-block;">
+</div>
 
 이 책은 면접에서 자주 등장하는 질문들을 중심으로 리액트의 핵심 기술을 체계적으로 설명하며, 다양한 예제 코드를 통해 이론을 넘어 직접 실습하면서 실력을 쌓을 수 있도록 돕는다.
