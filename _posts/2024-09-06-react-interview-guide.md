@@ -56,7 +56,7 @@ last_modified_at: 2024-09-05
 - 리액트 애플리케이션 구축 및 코딩 과제 접근법
 
 <div style="display: flex; overflow-x: auto; white-space: nowrap; justify-content: center;">
-  <img src="/assets/images/posts_img/frontend/example-code.jpg" alt="Example Code" style="width:300px; height:300px; display: inline-block;">
+  <img src="/assets/images/posts_img/frontend/example-code.jpg" alt="Example Code" style="width:300px; height:300px; display: inline-block;">　
   <img src="/assets/images/posts_img/frontend/tech-explanation.jpg" alt="Tech Explanation" style="width:300px; height:300px; display: inline-block;">
 </div>
 
