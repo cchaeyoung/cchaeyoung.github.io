@@ -17,7 +17,7 @@ last_modified_at: 2024-09-05
 ---
 # 📗  리액트 인터뷰 가이드
 
-![React Interview Guide Cover](/assets/images/posts_img/frontend/react-interview-guide-cover.png)
+<img src="../assets/images/posts_img/frontend/react-interview-guide-cover.png" alt="React Interview Guide Cover" style="width:400px; height:400px;">
 
 **리액트 인터뷰 가이드**는 총 223개의 면접 질문을 통해 리액트와 프론트엔드 개발에 필요한 지식을 설명하고 있다. 최신 리액트 동향과 실무 기술을 다루고 있어 면접 준비와 실제 개발에 모두 유용하게 활용할 수 있을 것 같다.
 
@@ -54,8 +54,7 @@ last_modified_at: 2024-09-05
 - 리액트 애플리케이션 구축 및 코딩 과제 접근법
 
 
-  ![Example Code](/assets/images/posts_img/frontend/example-code.jpg){: width="300" height="300"} ![Tech Explanation](/assets/images/posts_img/frontend/tech-explanation.jpg){: width="300" height="300"}
-
+  <img src="../assets/images/posts_img/frontend/example-code.jpg" alt="Example Code" style="width:300px; height:300px;"> <img src="../assets/images/posts_img/frontend/tech-explanation.jpg" alt="Tech Explanation" style="width:300px; height:300px;">
 
 
 이 책은 면접에서 자주 등장하는 질문들을 중심으로 리액트의 핵심 기술을 체계적으로 설명하며, 다양한 예제 코드를 통해 이론을 넘어 직접 실습하면서 실력을 쌓을 수 있도록 돕는다.
