@@ -63,8 +63,8 @@ last_modified_at: 2024-09-05
 이 책은 면접에서 자주 등장하는 질문들을 중심으로 리액트의 핵심 기술을 체계적으로 설명하며, 다양한 예제 코드를 통해 이론을 넘어 직접 실습하면서 실력을 쌓을 수 있도록 돕는다.
 
 ---
-### 📚 구매 링크
+### 🔗 구매 링크
 
-- [YES24에서 구매하기](https://www.yes24.com/Product/Goods/130271536)
-- [교보문고에서 구매하기](https://product.kyobobook.co.kr/detail/S000214006794)
+- yes24: https://www.yes24.com/Product/Goods/130271536
+- 교보문고: https://product.kyobobook.co.kr/detail/S000214006794
 
