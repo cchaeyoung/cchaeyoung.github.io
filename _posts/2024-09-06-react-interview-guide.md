@@ -65,6 +65,5 @@ last_modified_at: 2024-09-05
 ---
 ### 🔗 구매 링크
 
-- yes24: [https://www.yes24.com/Product/Goods/130271536](https://www.yes24.com/Product/Goods/130271536)
-- 교보문고: [https://product.kyobobook.co.kr/detail/S000214006794](https://product.kyobobook.co.kr/detail/S000214006794)
-
+- yes24: <small><a href="https://www.yes24.com/Product/Goods/130271536">https://www.yes24.com/Product/Goods/130271536</a></small>
+- 교보문고: <small><a href="https://product.kyobobook.co.kr/detail/S000214006794">https://product.kyobobook.co.kr/detail/S000214006794</a></small>
