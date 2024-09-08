@@ -22,8 +22,8 @@ categories:
     children:
       - title: "Data Structures"
         url: /categories/data-structures/
-      # - title: "Categories2"
-      #   url: /categories/categories2/
+      - title: "Computer Architecture"
+        url: /categories/computer-architecture/
       # - title: "Categories3"
       #   url: /categories/categories3/
       # - title: "Categories4"
