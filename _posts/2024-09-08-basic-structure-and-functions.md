@@ -30,6 +30,8 @@ last_modified_at: 2024-09-08
 - 입출력 장치(I/O): 컴퓨터가 외부 세계와 상호작용하는 장치로, 데이터를 입력하고 처리된 결과를 출력한다.
 - 시스템 버스(System Bus): CPU, 메모리, I/O 장치를 연결하는 경로로, 데이터와 신호를 전달한다.
 
+![computer logic](/assets/images/posts_img/computer-architecture/computer-logic.jpg)
+
 ---
 
 # 컴퓨터의 구성 요소
