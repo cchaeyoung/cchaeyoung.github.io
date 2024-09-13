@@ -39,7 +39,7 @@ last_modified_at: 2024-09-14
 - **시스템 상호연결(System interconnection):**  
 CPU, 주기억장치, 입출력 장치 등을 연결하는 시스템 버스로, 이들 사이에서 데이터가 원활하게 이동하도록 지원한다.
 
-  ![computer logic](../assets/images/posts_img/computer-architecture/computer-logic.png)
+  ![computer logic](assets\images\posts_img\computer-architecture\computer-logic.png)
 
 ---
 
