@@ -1,9 +1,9 @@
 ---
-title: "Frontend"
+title: "Python"
 layout: category
-permalink: /categories/frontend/
+permalink: /categories/python/
 author_profile: true
-taxonomy: Frontend
+taxonomy: Python
 sidebar:
   nav: "categories"
 ---
