@@ -1,19 +1,19 @@
 ---
-title: "[Computer Architecture] 컴퓨터의 기본 구조와 기능"
-excerpt: "컴퓨터의 기능, 구성 요소, 소프트웨어, 집적 회로"
+title: "[Computer Architecture] 컴퓨터 성능 향상과 평가"
+excerpt: "마이크로프로세서 성능 향상 기법과 평가 방법"
 
 categories:
   - Computer Architecture
 tags:
   - [Computer Architecture]
 
-permalink: /computer-architecture/basic-structure-and-functionss/
+permalink: /computer-architecture/performance-enhancement/
 
 toc: true
 toc_sticky: true
 
-date: 2024-09-08
-last_modified_at: 2024-09-14
+date: 2024-09-15
+last_modified_at: 2024-09-15
 ---
 
 # ⚡ 컴퓨터 성능 향상
