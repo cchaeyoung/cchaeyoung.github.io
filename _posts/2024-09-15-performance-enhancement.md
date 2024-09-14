@@ -12,8 +12,8 @@ permalink: /computer-architecture/performance-enhancement/
 toc: true
 toc_sticky: true
 
-date: 2024-09-08
-last_modified_at: 2024-09-14
+date: 2024-09-15
+last_modified_at: 2024-09-15
 ---
 
 # ⚡ 컴퓨터 성능 향상
