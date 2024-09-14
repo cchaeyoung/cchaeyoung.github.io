@@ -49,17 +49,17 @@ last_modified_at: 2024-09-14
 
 프로세서의 클럭 속도를 높이면 성능이 향상되지만, 동시에 **전력 밀도 문제**가 발생한다. 전력 밀도는 칩의 단위 면적당 소비되는 전력을 의미하며, 클럭 속도가 높아질수록 증가한다. 이는 트랜지스터가 더 빠르게 동작하면서 더 많은 전력을 소모하기 때문이다.
 
-트랜지스터 하나가 소비하는 전력은 **논리 값이 한 번 바뀔 때 소모되는 에너지**와 **시간당 논리 값이 바뀌는 빈도**의 곱이다. 
+**트랜지스터 하나가 소비하는 전력:** 논리 값이 한 번 바뀔 때 소모되는 에너지 X 시간당 논리 값이 바뀌는 빈도
 
 이러한 전력 소모 문제로 인해, 최신 프로세서들은 클럭 속도를 일정 수준에서 유지하며, 보통 3GHz에서 4GHz 사이로 안정화된 상태를 보인다. 이는 성능 향상과 전력 소비 간의 균형을 맞추기 위한 조치이다.
 
 ## 🔄 성능 향상을 위한 새로운 시도 – 멀티코어 (Multicore)
 
 멀티코어 프로세서는 하나의 칩에 여러 개의 프로세서를 배치하여 성능을 향상시키는 기술이다. 
-- 큰 용량의 캐시를 공유하는 여러 프로세서를 하나의 칩에 배치함으로써, 기억장치 회로의 소비전력보다 프로세서 회로의 소비전력이 훨씬 적다. 
-- 복잡한 프로세서 하나를 사용하는 대신, 칩 내에 더 간단한 여러 프로세서를 배치하면 성능 향상은 복잡도 증가의 제곱근에 비례한다. 소프트웨어가 여러 프로세서를 효과적으로 활용할 수 있도록 지원한다면, 프로세서 개수만큼의 성능 향상을 기대할 수 있다.
+- **큰 용량의 캐시를 공유**하는 여러 프로세서를 하나의 칩에 배치함으로써, 기억장치 회로의 소비전력보다 프로세서 회로의 소비전력이 훨씬 적다. 
+- 복잡한 프로세서 하나를 사용하는 대신, 칩 내에 더 **간단한 여러 프로세서를 배치**하면 성능이 더 향상된다. 성능 향상은 복잡도 증가의 제곱근에 비례한다. **소프트웨어**가 여러 프로세서를 효과적으로 활용할 수 있도록 지원한다면, 프로세서 개수만큼의 성능 향상을 기대할 수 있다.
 
-멀티코어 구조는 성능 향상과 전력 효율성을 동시에 고려한 최신 기술로, 성능을 극대화하고 전력 소모를 최소화하는 데 중요한 역할을 하고 있다.
+멀티코어 구조는 성능 향상과 전력 효율성을 동시에 고려한 기술로, 성능을 극대화하고 전력 소모를 최소화하는 데 중요한 역할을 한다.
 
 
 # 📊 컴퓨터의 성능 평가
@@ -92,24 +92,16 @@ last_modified_at: 2024-09-14
 
 2. **명령어 당 사이클 수 (CPI)**   
     - 하나의 명령어를 수행하기 위해서 소요되는 클럭 사이클 수
-        <div style="text-align: center;">
-            <img src="/assets/images/posts_img/computer-architecture/CPI.png" alt="CPI" >
-        </div>
+    ![CPI](/assets/images/posts_img/computer-architecture/CPI.png)
     - 주어진 프로그램을 수행하는 데 필요한 프로세서 시간 T
-        <div style="text-align: center;">
-            <img src="/assets/images/posts_img/computer-architecture/T-1.png" alt="T" >
-        </div>
+    ![T](/assets/images/posts_img/computer-architecture/T-1.png)
     - 명령어 실행 및 기억장치 이동시간 등을 고려한 프로세서 시간 T
-        <div style="text-align: center;">
-            <img src="/assets/images/posts_img/computer-architecture/T-2.png" alt="T" >
-        </div>
+    ![T](/assets/images/posts_img/computer-architecture/T-2.png)
 
 ## 🚀 암달의 법칙 (Amdahl’s Law)
 - 암달의 법칙은 다수의 프로세서를 사용한 프로그램의 잠재적 속도 향상 정도를 다룬다. 
 - N개의 프로세서를 가진 병렬 프로세서를 사용하여 프로그램의 병렬 부분을 완전히 이용하는 경우에 얻을 수 있는 속도 향상을 나타낸다.
-    <div style="text-align: center;">
-        <img src="/assets/images/posts_img/computer-architecture/speedup.png.png" alt="speedup" >
-    </div>
+    ![speedup](/assets/images/posts_img/computer-architecture/speedup.png)
 
 ## 🔢 프로세서의 성능 척도
 
