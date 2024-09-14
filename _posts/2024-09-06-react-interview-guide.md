@@ -1,6 +1,6 @@
 ---
-title: "Frontend - 리액트 인터뷰 가이드"
-excerpt: "리액트 인터뷰 가이드"
+title: "[Frontend] 리액트 인터뷰 가이드"
+excerpt: "리액트 인터뷰 가이드 도서 리뷰"
 
 categories:
   - Frontend

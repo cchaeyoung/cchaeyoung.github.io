@@ -1,5 +1,5 @@
 ---
-title: "컴퓨터의 기본 구조와 기능"
+title: "[Computer Architecture] 컴퓨터의 기본 구조와 기능"
 excerpt: "컴퓨터의 기능, 구성 요소, 소프트웨어, 집적 회로"
 
 categories:

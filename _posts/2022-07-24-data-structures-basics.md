@@ -1,6 +1,6 @@
 ---
-title: "기본 자료구조"
-excerpt: "기본 자료구조"
+title: "[Data Structures] 기본 자료구조 개념"
+excerpt: "스택, 큐, 이진 트리, 이진 힙"
 
 categories:
   - Data Structures
