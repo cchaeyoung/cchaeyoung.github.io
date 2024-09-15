@@ -19,7 +19,9 @@ last_modified_at: 2024-09-05
 
 <div style="text-align: center;">
   <img src="/assets/images/posts_img/frontend/react-interview-guide-cover.png" alt="React Interview Guide Cover" style="width:350px; height:350px;">
-</div>
+</div>  
+
+**리액트 인터뷰 가이드 : 면접 준비부터 실무까지 한 번에 챙기는 리액트 개발자 핵심 노트**
 
 **리액트 인터뷰 가이드**는 총 223개의 면접 질문을 통해 리액트와 프론트엔드 개발에 필요한 지식을 설명하고 있다. 최신 리액트 동향과 실무 기술을 다루고 있어 면접 준비와 실제 개발에 모두 유용하게 활용할 수 있을 것 같다.
 
