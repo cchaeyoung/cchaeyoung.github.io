@@ -12,8 +12,8 @@ permalink: /frontend/firebase-setup/
 toc: true
 toc_sticky: true
 
-date: 2024-09-18
-last_modified_at: 2024-09-18
+date: 2024-09-17
+last_modified_at: 2024-09-17
 ---
 
 Firebase의 주요 기능과 설정 방법에 대한 내용

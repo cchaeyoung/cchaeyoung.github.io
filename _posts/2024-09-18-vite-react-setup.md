@@ -12,8 +12,8 @@ permalink: /frontend/vite-react-setup/
 toc: true
 toc_sticky: true
 
-date: 2024-09-18
-last_modified_at: 2024-09-18
+date: 2024-09-16
+last_modified_at: 2024-09-16
 ---
 
 > **리액트 인터뷰 가이드**의 11장을 참고하여 작성하였다.
