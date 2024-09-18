@@ -26,11 +26,11 @@ last_modified_at: 2024-09-18
 
 ---
 
-# 🔑 Firebase 인증: 가입, 로그인, 로그아웃 구현
+# 🔒 Firebase 인증: 가입, 로그인, 로그아웃 구현
 
 Firebase Authentication을 활용하여 사용자의 로그인, 가입, 로그아웃 기능을 구현한다. `firebase/auth` 패키지를 사용하여 이메일 및 비밀번호 로그인, 구글 로그인 등을 처리할 수 있다.
 
-## Firebase 인증 API 설정
+## 🔑 Firebase 인증 API 설정
 
 먼저 Firebase 앱 인스턴스를 생성하고, 인증 메서드를 가져온다.
 
@@ -57,11 +57,12 @@ googleProvider.setCustomParameters({
 });
 ```
 
-## 인증 메서드 구현
+## 🔄 인증 메서드 구현
 
 이메일과 비밀번호를 사용한 로그인, 구글 로그인을 위한 메서드, 사용자 가입, 로그아웃 메서드를 구현한다.
 
-**로그인**
+### 로그인
+
 이메일과 비밀번호를 사용하여 사용자를 로그인시키는 메서드이다.
 
 ```ts
@@ -76,7 +77,14 @@ export const signInEmailAndPassword = async (
 
 ![login-main](/assets/images/posts_img/frontend/login-main.png)
 
-**구글 로그인**  
+위의 로그인 화면에서 이메일과 비밀번호를 입력하여 로그인할 수 있다.
+
+![login-name](/assets/images/posts_img/frontend/login-name.png)
+
+로그인에 성공하면 사용자 이름이 화면에 표시된다. 이는 사용자가 성공적으로 로그인했음을 시각적으로 확인할 수 있다.
+
+### 구글 로그인
+
 구글 로그인을 위한 메서드이다.
 
 ```ts
@@ -87,7 +95,8 @@ export const signInGoogleRedirect = () =>
 
 ![google-login](/assets/images/posts_img/frontend/google-login.png)
 
-**사용자 가입**  
+### 사용자 가입
+
 이메일과 비밀번호를 사용한 사용자 가입 메서드이다.
 
 ```ts
@@ -104,16 +113,15 @@ export const signUpEmailAndPassword = async (
 
 ![sign-up](/assets/images/posts_img/frontend/sign-up.png)
 
-**로그아웃**
+### 로그아웃
+
 로그아웃 메서드이다.
 
 ```ts
 export const signOutUser = async () => await signOut(auth);
 ```
 
-![logout](/assets/images/posts_img/frontend/logout.gif)
-
-## 상태 변경 감지
+## 🔔 상태 변경 감지
 
 사용자의 인증 상태 변경을 감지하고, 애플리케이션 내의 현재 사용자 정보를 업데이트하기 위해 다음 메서드를 사용한다.
 
@@ -122,13 +130,15 @@ export const onAuthStateChangedListener = (callback: NextOrObserver<User>) =>
   onAuthStateChanged(auth, callback);
 ```
 
-# 📂 Cloud Firestore를 통한 데이터 관리
+---
+
+# 📊 Cloud Firestore를 통한 데이터 관리
 
 Cloud Firestore는 전통적인 SQL 데이터베이스와 달리 데이터를 도큐먼트(document) 형태로 저장하며, 도큐먼트는 컬렉션(collection)으로 구성된다.
 
-## Firestore 설정
+## 📂 Firestore 설정
 
-Firestore 패키지에서 필요한 함수를 가져온다.
+Firestore 패키지에서 필요한 함수를 가져와서 Firestore 데이터베이스 인스턴스를 생성한다.
 
 ```ts
 import {
@@ -145,9 +155,14 @@ import { Product } from "@/app/store/product/product.types";
 export const db = getFirestore();
 ```
 
-## 제품 데이터 삽입
+`getFirestore`는 Firestore 데이터베이스 인스턴스를 생성하는 함수로, 이 데이터베이스에서 컬렉션과 도큐먼트를 관리한다.
 
-제품 데이터를 Firestore에 삽입한다.
+![database](/assets/images/posts_img/frontend/database.png)  
+위 사진은 Firestore 콘솔에서 'products' 컬렉션의 데이터 구조이다. Firestore는 컬렉션과 도큐먼트로 데이터를 구성하며, 이 구조를 통해 각 제품의 세부 정보를 쉽게 추가하고 조회할 수 있다.
+
+## 📝 제품 데이터 삽입
+
+제품 데이터를 Firestore에 삽입하기 위해, 데이터베이스 인스턴스와 컬렉션 참조를 생성하고, 배치 작업을 통해 여러 제품 데이터를 한 번에 삽입한다. 각 제품에 대해 도큐먼트 참조를 생성하고, 배치 작업을 커밋하여 레코드를 동시에 삽입한다.
 
 ```ts
 export const insertProductsData = async <T extends Product>(
@@ -166,12 +181,9 @@ export const insertProductsData = async <T extends Product>(
 };
 ```
 
-1. 데이터베이스 인스턴스와 컬렉션 참조를 생성한다.
-2. 배치 참조를 생성하여 여러 제품 데이터를 한 번에 삽입한다.
-3. 각 제품에 대해 도큐먼트 참조를 생성하고, 배치를 업데이트한다.
-4. 배치를 커밋하여 여러 레코드를 동시에 삽입한다.
+## 🔍 제품 데이터 조회
 
-## 제품 데이터 조회
+제품 데이터를 조회하기 위해, 제품 컬렉션 참조를 생성하고 쿼리 참조를 사용하여 모든 도큐먼트를 가져온다. 쿼리 스냅숏을 순회하여 결과를 반환한다.
 
 ```ts
 export const fetchProductsData = async () => {
@@ -182,11 +194,6 @@ export const fetchProductsData = async () => {
   return querySnapshot.docs.map((docSnapshot) => docSnapshot.data());
 };
 ```
-
-1. 제품 컬렉션 참조를 생성한다.
-2. 쿼리 참조를 생성한다.
-3. getDocs 메서드를 호출하여 모든 도큐먼트를 가져온다.
-4. 쿼리 스냅숏을 순회하고 결과를 반환한다.
 
 Firebase 인증과 Cloud Firestore 작업을 통해 사용자 인증과 데이터 관리 기능을 구축하였다.
 이를 활용하여 애플리케이션의 백엔드 작업을 효율적으로 처리할 수 있다.
