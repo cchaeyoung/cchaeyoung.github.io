@@ -61,7 +61,7 @@ googleProvider.setCustomParameters({
 
 이메일과 비밀번호를 사용한 로그인, 구글 로그인을 위한 메서드, 사용자 가입, 로그아웃 메서드를 구현한다.
 
-### 로그인
+<h3>로그인</h3>
 
 이메일과 비밀번호를 사용하여 사용자를 로그인시키는 메서드이다.
 
@@ -83,9 +83,12 @@ export const signInEmailAndPassword = async (
 
 로그인에 성공하면 사용자 이름이 화면에 표시된다. 이는 사용자가 성공적으로 로그인했음을 시각적으로 확인할 수 있다.
 
-### 구글 로그인
+<h3>구글 로그인</h3>
 
-구글 로그인을 위한 메서드이다.
+구글 로그인을 위한 두 가지 방식의 메서드이다.
+
+- **팝업 방식 (`signInWithPopup`)**: 로그인 시 새 팝업 창이 열리고, 사용자는 팝업에서 계정을 선택하여 인증을 완료한다. 팝업이 닫히면 로그인 정보가 애플리케이션으로 전달되며, 페이지는 변경되지 않는다.
+- **리다이렉트 방식 (`signInWithRedirect`)**: 로그인 시 페이지가 Google 로그인 화면으로 리다이렉트된다. 인증 후 원래 페이지로 돌아와 로그인 정보가 전달된다.
 
 ```ts
 export const signInGooglePopup = () => signInWithPopup(auth, googleProvider);
@@ -95,7 +98,9 @@ export const signInGoogleRedirect = () =>
 
 ![google-login](/assets/images/posts_img/frontend/google-login.png)
 
-### 사용자 가입
+현재 `signInGooglePopup`을 호출하여 팝업 방식으로 로그인 창이 뜨도록 하였다.
+
+<h3>사용자 가입</h3>
 
 이메일과 비밀번호를 사용한 사용자 가입 메서드이다.
 
@@ -113,7 +118,7 @@ export const signUpEmailAndPassword = async (
 
 ![sign-up](/assets/images/posts_img/frontend/sign-up.png)
 
-### 로그아웃
+<h3>로그아웃</h3>
 
 로그아웃 메서드이다.
 
