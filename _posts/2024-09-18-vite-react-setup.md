@@ -118,7 +118,7 @@ one-stop-electronics/
 
 ---
 
-<small>🔗 **구매 링크**</small>
+🔗 **구매 링크**
 
 - <small>yes24: <a href="https://www.yes24.com/Product/Goods/130271536">https://www.yes24.com/Product/Goods/130271536</a></small>
 - <small>교보문고: <a href="https://product.kyobobook.co.kr/detail/S000214006794">https://product.kyobobook.co.kr/detail/S000214006794</a></small>
