@@ -58,7 +58,7 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
 
   **점수**: 5/5
 
-- **Perplexity **
+- **Perplexity**
   ![accuracy-perplexity](/assets/images/posts_img/artificial-intelligence/accuracy-perplexity.jpg) ![accuracy-perplexity](/assets/images/posts_img/artificial-intelligence/accuracy-perplexity-2.jpg)
 
   **내용 요약**
