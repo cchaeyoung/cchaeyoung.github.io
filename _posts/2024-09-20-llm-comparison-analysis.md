@@ -69,8 +69,8 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
 
 - **Perplexity**
   <div style="display: flex; gap: 5px;">
-    {% include image.html url="/assets/images/posts_img/artificial-intelligence/accuracy-perplexity.jpg" width="169" height="300" %}
-    {% include image.html url="/assets/images/posts_img/artificial-intelligence/accuracy-perplexity-2.jpg" width="169" height="300" %}
+    <img src="/assets/images/posts_img/artificial-intelligence/accuracy-perplexity.jpg" style="max-width: 169px; height: 300px;" alt="accuracy-perplexity">
+    <img src="/assets/images/posts_img/artificial-intelligence/accuracy-perplexity-2.jpg" style="max-width: 169px; height: 300px;" alt="accuracy-perplexity">
   </div>
 
   **내용 요약**
