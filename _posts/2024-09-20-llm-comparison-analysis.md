@@ -18,7 +18,8 @@ last_modified_at: 2024-09-20
 
 다양한 LLM(대규모 언어 모델)이 등장하면서 각 모델의 특성과 적합성을 파악하는 것이 점점 더 중요해지고 있다.
 
-<mark>A.X (SKT 대화형 LLM)</mark>, <mark>Perplexity (Sonar)</mark>, <mark>Claude (3 Haiku)</mark>, <mark>GPT (3.5 Turbo)</mark>를 대상으로 동일한 질문을 통해 성능을 비교 분석하고자 한다. 에이닷 앱에 이 네 가지 LLM이 모두 탑재되어 있어, 이를 활용하여 분석을 진행하였다.
+<mark>A.X (SKT 대화형 LLM)</mark>, <mark>Perplexity (Sonar)</mark>, <mark>Claude (3 Haiku)</mark>, <mark>GPT (3.5 Turbo)</mark>를 대상으로 동일한 질문을 통해 성능을 비교 분석하고자 한다.  
+에이닷(AI 에이전트 서비스)에 멀티 LLM 에이전트로 이 네 가지 LLM이 모두 탑재되어 있어, 이를 활용하여 분석을 진행하였다.
 
 평가 기준으로는 <mark>정확성</mark>, <mark>응답의 깊이</mark>, <mark>명확성</mark>, <mark>문제 해결 능력</mark>, <mark>코드 작성 능력</mark>을 설정하였다.
 
