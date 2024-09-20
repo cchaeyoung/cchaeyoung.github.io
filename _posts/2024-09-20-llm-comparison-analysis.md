@@ -47,7 +47,7 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
 자바스크립트의 변수 선언 방법에 대한 정확한 정보를 제공하는지 평가한다.
 
 - **A.X**
-  <div style="display: flex; overflow-x: auto; gap: 10px;">
+  <div style="display: flex; gap: 5px;">
     <img src="/assets/images/posts_img/artificial-intelligence/accuracy-ax.jpg" style="max-width: 169px; height: 300px;" alt="accuracy-ax">
     <img src="/assets/images/posts_img/artificial-intelligence/accuracy-ax-2.jpg" style="max-width: 169px; height: 300px;" alt="accuracy-ax-2">
   </div>
@@ -57,12 +57,21 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
   - var, let, const 세 가지 변수 선언 방법을 설명
   - 각각의 특징 (스코프, 재선언/재할당 가능 여부)을 정확히 설명
 
+  <br />
+
   **평가**: 변수 선언 방법을 정확하게 설명했으며, 각 키워드의 주요 특징을 올바르게 기술했다. 예시 코드도 정확하다.
+
+  <br />
 
   **점수**: 5/5
 
+  <br />
+
 - **Perplexity**
-  ![accuracy-perplexity](/assets/images/posts_img/artificial-intelligence/accuracy-perplexity.jpg) ![accuracy-perplexity](/assets/images/posts_img/artificial-intelligence/accuracy-perplexity-2.jpg)
+  <div style="display: flex; gap: 5px;">
+    {% include image.html url="/assets/images/posts_img/artificial-intelligence/accuracy-perplexity.jpg" width="169" height="300" %}
+    {% include image.html url="/assets/images/posts_img/artificial-intelligence/accuracy-perplexity-2.jpg" width="169" height="300" %}
+  </div>
 
   **내용 요약**
 
@@ -70,9 +79,15 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
   - 각각의 스코프, 재선언/재할당 가능 여부, 도입 시기 등을 정확히 기술
   - 변수 선언과 할당의 과정, 변수 명명 규칙, 권장 사항 등 추가적인 정보도 제공
 
+  <br />
+
   **평가**: 변수 선언 방법에 대해 매우 상세하고 정확한 정보를 제공했다. 추가적인 관련 정보도 정확하다.
 
+  <br />
+
   **점수**: 5/5
+
+  <br />
 
 - **Claude**  
   ![accuracy-claude](/assets/images/posts_img/artificial-intelligence/accuracy-claude.jpg) ![accuracy-claude](/assets/images/posts_img/artificial-intelligence/accuracy-claude-2.jpg)
@@ -83,9 +98,15 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
   - 각각의 스코프와 주요 특징을 간략하게 설명
   - 각 방법에 대한 간단한 코드 예시 제공
 
+  <br />
+
   **평가**: 변수 선언 방법을 정확하게 설명했으며, 각 키워드의 핵심 특징을 올바르게 기술했다. 간결하지만 정확한 정보를 제공했다.
 
+  <br />
+
   **점수**: 5/5
+
+  <br />
 
 - **GPT**  
   ![accuracy-gpt](/assets/images/posts_img/artificial-intelligence/accuracy-gpt.jpg) ![accuracy-gpt](/assets/images/posts_img/artificial-intelligence/accuracy-gpt-2.jpg)
@@ -96,9 +117,15 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
   - 각각의 특징 (재선언/재할당 가능 여부, 스코프, 호이스팅)을 상세히 설명
   - 각 방법에 대한 코드 예시 제공
 
+  <br />
+
   **평가**: 변수 선언 방법을 정확하게 설명했으며, 각 키워드의 특징을 상세하고 정확하게 기술했다. 호이스팅과 TDZ 같은 고급 개념도 올바르게 포함했다.
 
+  <br />
+
   **점수**: 5/5
+
+  <br />
 
 ## 📚 응답의 깊이 평가
 
@@ -113,9 +140,15 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
 
   - 객체 지향 프로그래밍의 기본 개념인 클래스, 인스턴스, 캡슐화, 상속, 다형성에 대해 간단히 설명
 
+  <br />
+
   **평가**: 기본적인 OOP 개념을 포함하고 있지만, 각 개념에 대한 설명이 간략하다. 예시나 추가적인 설명이 부족하여 깊이 있는 이해를 제공하지 않는다.
 
+  <br />
+
   **점수**: 2/5
+
+  <br />
 
 - **Perplexity**  
   ![depth-perplexity](/assets/images/posts_img/artificial-intelligence/depth-perplexity.jpg) ![depth-perplexity](/assets/images/posts_img/artificial-intelligence/depth-perplexity-2.jpg)
@@ -126,9 +159,15 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
   - OOP의 장점(코드 재사용성, 유지보수성, 직관적 코드) 설명
   - 각 개념에 대한 출처 제공
 
+  <br />
+
   **평가**: OOP의 개념과 특징을 더 자세히 설명하고 있으며, 각 개념의 의미와 중요성을 제시하고 있다. 그러나 구체적인 예시나 실제 적용 사례가 부족하다.
 
+  <br />
+
   **점수**: 4/5
+
+  <br />
 
 - **Claude**  
   ![depth-claude](/assets/images/posts_img/artificial-intelligence/depth-claude.jpg) ![depth-claude](/assets/images/posts_img/artificial-intelligence/depth-claude-2.jpg)
@@ -138,9 +177,15 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
   - OOP의 주요 개념(객체, 클래스, 상속, 캡슐화, 다형성)을 설명
   - OOP의 장점(모듈성, 재사용성, 확장성, 유지보수성) 설명
 
+  <br />
+
   **평가**: OOP의 주요 개념을 설명하고 각 개념의 의미를 제공한다. 또한 OOP의 장점을 구체적으로 언급하여 실제 적용 시의 이점을 이해할 수 있게 한다. 그러나 개념에 대한 심층적인 설명이나 예시가 부족하다.
 
+  <br />
+
   **점수**: 3/5
+
+  <br />
 
 - **GPT**  
   ![depth-gpt](/assets/images/posts_img/artificial-intelligence/depth-gpt.jpg) ![depth-gpt](/assets/images/posts_img/artificial-intelligence/depth-gpt-2.jpg)
@@ -150,9 +195,15 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
   - OOP의 주요 개념(클래스, 객체, 상속, 다형성, 캡슐화, 추상화)을 설명
   - 각 개념의 의미와 중요성을 제시
 
+  <br />
+
   **평가**: OOP의 각 개념에 대해 더 자세한 설명을 제공하고 있다. 특히 클래스와 객체의 관계, 각 개념의 목적과 이점을 명확히 설명하고 있어 깊이 있는 이해를 돕는다. 그러나 구체적인 코드 예시나 실제 적용 사례가 없어 완벽한 깊이에는 조금 부족하다.
 
+  <br />
+
   **점수**: 4/5
+
+  <br />
 
 ## ✍️ 명확성 평가
 
@@ -168,9 +219,15 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
   - API를 프로그램 간 통신을 위한 규정으로 정의, 기상청 API를 예로 들어 설명
   - API의 요청 방식과 응답 형식을 구체적으로 보여주며, API 사용의 이점 언급
 
+  <br />
+
   **평가**: API의 개념을 실제 사례를 통해 명확하게 설명하고 있다. 요청과 응답의 예시를 구체적으로 제시하여 이해를 돕고 있으며, API 사용의 장점도 간단히 언급하고 있다.
 
+  <br />
+
   **점수**: 4/5
+
+  <br />
 
 - **Perplexity**  
   ![clarity-perplexity](/assets/images/posts_img/artificial-intelligence/clarity-perplexity.jpg) ![clarity-perplexity](/assets/images/posts_img/artificial-intelligence/clarity-perplexity-2.jpg)
@@ -180,9 +237,15 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
   - API를 레스토랑 비유를 통해 설명
   - 손님(클라이언트), 점원(API), 주방(서버)의 역할을 통해 API의 기능을 설명하고, 실제 API와의 비교를 제시
 
+  <br />
+
   **평가**: 일상적인 예시를 통해 API의 개념을 쉽게 이해할 수 있게 설명하고 있다. 레스토랑 비유는 API의 역할을 직관적으로 이해하는 데 도움을 준다. 또한, 비유와 실제 API의 비교를 통해 개념을 더욱 명확히 하고 있다.
 
+  <br />
+
   **점수**: 5/5
+
+  <br />
 
 - **Claude**  
   ![clarity-claude](/assets/images/posts_img/artificial-intelligence/clarity-claude.jpg) ![clarity-claude](/assets/images/posts_img/artificial-intelligence/clarity-claude-2.jpg)
@@ -193,9 +256,15 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
   - Google Maps API, Twitter API, Kakao Pay API 등 실제 사용되는 API 예시를 통해 설명
   - 각 API의 기능과 활용 사례를 간단히 소개
 
+  <br />
+
   **평가**: API의 개념을 간단히 정의한 후, 실제 사용되는 다양한 API 예시를 통해 설명하고 있다. 각 API의 기능과 활용 사례를 구체적으로 제시하여 API의 실제 응용을 이해하는 데 도움을 준다.
 
+  <br />
+
   **점수**: 4/5
+
+  <br />
 
 - **GPT**  
   ![clarity-gpt](/assets/images/posts_img/artificial-intelligence/clarity-gpt.jpg) ![clarity-gpt](/assets/images/posts_img/artificial-intelligence/clarity-gpt-2.jpg)
@@ -205,9 +274,15 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
   - API를 레스토랑 주문 과정에 비유하여 설명
   - 고객(클라이언트), 웨이터(API), 요리사(서버)의 역할을 통해 API의 작동 방식을 설명하고, API의 기능을 간단히 요약
 
+  <br />
+
   **평가**: 레스토랑 비유를 통해 API의 개념을 쉽게 이해할 수 있게 설명하고 있다. 비유의 각 요소를 실제 API 구성 요소와 명확히 대응시켜 설명하고 있어 이해가 용이하다. 그러나 구체적인 API 예시나 실제 적용 사례가 부족하다.
 
+  <br />
+
   **점수**: 4/5
+
+  <br />
 
 ## 🧩 문제 해결 능력 평가
 
@@ -223,9 +298,15 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
   - 첫 번째 원소를 임시 변수에 저장하고, 나머지 원소들과 비교하며 중복을 제거하는 방식을 제안
   - JavaScript 코드로 구현하여 설명
 
+  <br />
+
   **평가**: 간단한 접근 방식을 제시하고 있지만, 이 방법은 연속된 중복 요소만 제거할 수 있어 완전한 해결책이 되지 못합니다. 문제의 요구사항을 완전히 충족시키지 못하고 있습니다.
 
+  <br />
+
   **점수**: 2/5
+
+  <br />
 
 - **Perplexity**  
   ![problem-solving-perplexity](/assets/images/posts_img/artificial-intelligence/problem-solving-perplexity.jpg) ![problem-solving-perplexity](/assets/images/posts_img/artificial-intelligence/problem-solving-perplexity-2.jpg)
@@ -235,9 +316,15 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
   - Set, LinkedHashSet, Stream의 distinct() 메소드, 정렬 후 unique() 함수 사용 등 다양한 방법을 제시
   - 각각에 대한 코드 예시 제공
 
+  <br />
+
   **평가**: 다양한 해결 방법을 제시하고 있어 문제에 대한 깊은 이해를 보여준다. 각 방법의 특징과 장단점을 설명하고 있어 상황에 따른 최적의 해결책을 선택할 수 있게 한다. 여러 프로그래밍 언어에서의 구현 방법도 제시하고 있어 문제 해결 능력이 뛰어나다.
 
+  <br />
+
   **점수**: 5/5
+
+  <br />
 
 - **Claude**  
   ![problem-solving-claude](/assets/images/posts_img/artificial-intelligence/problem-solving-claude.jpg) ![problem-solving-claude](/assets/images/posts_img/artificial-intelligence/problem-solving-claude-2.jpg)
@@ -247,9 +334,15 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
   - 새로운 배열을 생성하고, 원본 배열을 순회하면서 중복 여부를 확인하여 새 배열에 추가하는 방식을 제안
   - JavaScript 코드로 구현하여 설명
 
+  <br />
+
   **평가**: 문제를 정확히 이해하고 단계별로 해결 방법을 제시하고 있다. 알고리즘의 동작 원리를 명확히 설명하고 있으며, 코드 구현까지 제공하여 실제 적용 가능한 해결책을 제시하고 있다. 시간 복잡도에 대한 언급도 있어 알고리즘의 효율성도 고려하고 있다.
 
+  <br />
+
   **점수**: 5/5
+
+  <br />
 
 - **GPT**  
   ![problem-solving-gpt](/assets/images/posts_img/artificial-intelligence/problem-solving-gpt.jpg) ![problem-solving-gpt](/assets/images/posts_img/artificial-intelligence/problem-solving-gpt-2.jpg)
@@ -259,9 +352,15 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
   - 배열을 순회하면서 각 요소의 중복 여부를 확인하고, 중복되지 않은 요소만 새 배열에 추가하는 방식 제안
   - JavaScript 코드로 구현하여 설명
 
+  <br />
+
   **평가**: 문제 해결 과정을 단계별로 명확하게 설명하고 있다. 알고리즘의 동작 원리를 이해하기 쉽게 설명하고 있으며, 실제 코드 구현까지 제공하고 있다. 그러나 시간 복잡도나 다른 최적화 방법에 대한 언급이 없어 더 효율적인 해결책을 고려하지 않았다.
 
+  <br />
+
   **점수**: 4/5
+
+  <br />
 
 ## 💻 코드 작성 능력 평가
 
@@ -277,9 +376,15 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
   - 파이썬의 set() 함수를 사용하여 리스트의 중복 요소를 제거하는 방법 제시
   - 코드 예시와 함께 간단한 설명 제공, 결과로 얻어지는 리스트를 출력하는 부분 포함
 
+  <br />
+
   **평가**: 정확하고 효율적인 방법을 사용했다. 코드가 간결하고 이해하기 쉽다. 하지만 단일 방법만 제시했다.
 
+  <br />
+
   **점수**: 4/5
+
+  <br />
 
 - **Perplexity**  
   ![code-writing-perplexity](/assets/images/posts_img/artificial-intelligence/code-writing-perplexity.jpg) ![code-writing-perplexity](/assets/images/posts_img/artificial-intelligence/code-writing-perplexity-2.jpg)
@@ -289,9 +394,15 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
   - 리스트에서 중복 요소를 제거하는 5가지 다른 방법 상세히 설명
   - set() 사용, for-loop 사용, list comprehension 사용, dict.fromkeys() 사용, 그리고 일반 dict 사용 방법을 각각 코드 예시와 함께 제시
 
+  <br />
+
   **평가**: 다양한 방법을 제시하고 각 방법의 장단점을 상세히 설명했다. 코드 예시가 풍부하고 설명이 매우 상세하다. 효율성과 확장성 면에서 우수하다.
 
+  <br />
+
   **점수**: 5/5
+
+  <br />
 
 - **Claude**  
   ![code-writing-claude](/assets/images/posts_img/artificial-intelligence/code-writing-claude.jpg) ![code-writing-claude](/assets/images/posts_img/artificial-intelligence/code-writing-claude-2.jpg)
@@ -302,9 +413,15 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
   - set() 함수 사용, for 루프 사용, 그리고 리스트 컴프리헨션 사용 방법을 각각 설명하고 코드 예시 제공
   - 각 방법에 대해 간단한 설명과 함께 예상되는 출력 결과를 포함
 
+  <br />
+
   **평가**: 여러 방법을 정확하게 구현했고, 각 방법에 대한 설명이 명확하다. 다양한 상황에 적용 가능한 코드를 제시했다.
 
+  <br />
+
   **점수**: 5/5
+
+  <br />
 
 - **GPT**  
   ![code-writing-gpt](/assets/images/posts_img/artificial-intelligence/code-writing-gpt.jpg)
@@ -314,9 +431,15 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
   - set() 함수를 사용하여 리스트의 중복 요소를 제거하는 한 가지 방법을 제시
   - 코드 예시와 함께 각 단계에 대한 설명을 제공했으며, 마지막으로 결과를 출력하는 부분까지 포함
 
+  <br />
+
   **평가**: 정확하고 효율적인 방법을 사용했다. 코드가 간결하고 이해하기 쉽지만, 단일 방법만 제시했다.
 
+  <br />
+
   **점수**: 4/5
+
+  <br />
 
 ---
 
