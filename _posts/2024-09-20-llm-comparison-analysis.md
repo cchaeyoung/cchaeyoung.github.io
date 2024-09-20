@@ -323,7 +323,7 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
 - **A.X**
   <div style="display: flex; gap: 5px;">
     <img src="/assets/images/posts_img/artificial-intelligence/problem-solving-ax.jpg" style="max-width: 169px; height: 300px;" alt="problem-solving-ax">
-    <img src="/assets/images/posts_img/artificial-intelligence/problem-solving-ax.jpg" style="max-width: 169px; height: 300px;" alt="problem-solving-ax">
+    <img src="/assets/images/posts_img/artificial-intelligence/problem-solving-ax-2.jpg" style="max-width: 169px; height: 300px;" alt="problem-solving-ax">
   </div>
 
   **내용 요약**
