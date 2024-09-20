@@ -89,8 +89,11 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
 
   <br />
 
-- **Claude**  
-  ![accuracy-claude](/assets/images/posts_img/artificial-intelligence/accuracy-claude.jpg) ![accuracy-claude](/assets/images/posts_img/artificial-intelligence/accuracy-claude-2.jpg)
+- **Claude**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/accuracy-claude.jpg" style="max-width: 169px; height: 300px;" alt="accuracy-claude">
+    <img src="/assets/images/posts_img/artificial-intelligence/accuracy-claude-2.jpg" style="max-width: 169px; height: 300px;" alt="accuracy-claude">
+  </div>
 
   **내용 요약**
 
@@ -108,8 +111,11 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
 
   <br />
 
-- **GPT**  
-  ![accuracy-gpt](/assets/images/posts_img/artificial-intelligence/accuracy-gpt.jpg) ![accuracy-gpt](/assets/images/posts_img/artificial-intelligence/accuracy-gpt-2.jpg)
+- **GPT**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/accuracy-gpt.jpg" style="max-width: 169px; height: 300px;" alt="accuracy-gpt">
+    <img src="/assets/images/posts_img/artificial-intelligence/accuracy-gpt-2.jpg" style="max-width: 169px; height: 300px;" alt="accuracy-gpt">
+  </div>
 
   **내용 요약**
 
@@ -133,8 +139,11 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
 
 객체 지향 프로그래밍의 개념을 각 LLM이 얼마나 깊이 있게 설명하는지를 분석한다.
 
-- **A.X**  
-  ![depth-ax](/assets/images/posts_img/artificial-intelligence/depth-ax.jpg) ![depth-ax](/assets/images/posts_img/artificial-intelligence/depth-ax-2.jpg)
+- **A.X**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/depth-ax.jpg" style="max-width: 169px; height: 300px;" alt="depth-ax">
+    <img src="/assets/images/posts_img/artificial-intelligence/depth-ax-2.jpg" style="max-width: 169px; height: 300px;" alt="depth-ax">
+  </div>
 
   **내용 요약**
 
@@ -150,8 +159,11 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
 
   <br />
 
-- **Perplexity**  
-  ![depth-perplexity](/assets/images/posts_img/artificial-intelligence/depth-perplexity.jpg) ![depth-perplexity](/assets/images/posts_img/artificial-intelligence/depth-perplexity-2.jpg)
+- **Perplexity**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/depth-perplexity.jpg" style="max-width: 169px; height: 300px;" alt="depth-perplexity">
+    <img src="/assets/images/posts_img/artificial-intelligence/depth-perplexity-2.jpg" style="max-width: 169px; height: 300px;" alt="depth-perplexity">
+  </div>
 
   **내용 요약**
 
@@ -169,8 +181,11 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
 
   <br />
 
-- **Claude**  
-  ![depth-claude](/assets/images/posts_img/artificial-intelligence/depth-claude.jpg) ![depth-claude](/assets/images/posts_img/artificial-intelligence/depth-claude-2.jpg)
+- **Claude**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/depth-claude.jpg" style="max-width: 169px; height: 300px;" alt="depth-claude">
+    <img src="/assets/images/posts_img/artificial-intelligence/depth-claude-2.jpg" style="max-width: 169px; height: 300px;" alt="depth-claude">
+  </div>
 
   **내용 요약**
 
@@ -187,8 +202,11 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
 
   <br />
 
-- **GPT**  
-  ![depth-gpt](/assets/images/posts_img/artificial-intelligence/depth-gpt.jpg) ![depth-gpt](/assets/images/posts_img/artificial-intelligence/depth-gpt-2.jpg)
+- **GPT**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/depth-gpt.jpg" style="max-width: 169px; height: 300px;" alt="depth-gpt">
+    <img src="/assets/images/posts_img/artificial-intelligence/depth-gpt-2.jpg" style="max-width: 169px; height: 300px;" alt="depth-gpt">
+  </div>
 
   **내용 요약**
 
@@ -211,8 +229,11 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
 
 API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 평가한다.
 
-- **A.X**  
-  ![clarity-ax](/assets/images/posts_img/artificial-intelligence/clarity-ax.jpg) ![clarity-ax](/assets/images/posts_img/artificial-intelligence/clarity-ax-2.jpg)
+- **A.X**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/clarity-ax.jpg" style="max-width: 169px; height: 300px;" alt="clarity-ax">
+    <img src="/assets/images/posts_img/artificial-intelligence/clarity-ax.jpg" style="max-width: 169px; height: 300px;" alt="clarity-ax">
+  </div>
 
   **내용 요약**
 
@@ -229,8 +250,11 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
 
   <br />
 
-- **Perplexity**  
-  ![clarity-perplexity](/assets/images/posts_img/artificial-intelligence/clarity-perplexity.jpg) ![clarity-perplexity](/assets/images/posts_img/artificial-intelligence/clarity-perplexity-2.jpg)
+- **Perplexity**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/clarity-perplexity.jpg" style="max-width: 169px; height: 300px;" alt="clarity-perplexity">
+    <img src="/assets/images/posts_img/artificial-intelligence/clarity-perplexity-2.jpg" style="max-width: 169px; height: 300px;" alt="clarity-perplexity">
+  </div>
 
   **내용 요약**
 
@@ -247,8 +271,11 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
 
   <br />
 
-- **Claude**  
-  ![clarity-claude](/assets/images/posts_img/artificial-intelligence/clarity-claude.jpg) ![clarity-claude](/assets/images/posts_img/artificial-intelligence/clarity-claude-2.jpg)
+- **Claude**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/clarity-claude.jpg" style="max-width: 169px; height: 300px;" alt="clarity-claude">
+    <img src="/assets/images/posts_img/artificial-intelligence/clarity-claude-2.jpg" style="max-width: 169px; height: 300px;" alt="clarity-claude">
+  </div>
 
   **내용 요약**
 
@@ -266,8 +293,11 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
 
   <br />
 
-- **GPT**  
-  ![clarity-gpt](/assets/images/posts_img/artificial-intelligence/clarity-gpt.jpg) ![clarity-gpt](/assets/images/posts_img/artificial-intelligence/clarity-gpt-2.jpg)
+- **GPT**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/clarity-gpt.jpg" style="max-width: 169px; height: 300px;" alt="clarity-gpt">
+    <img src="/assets/images/posts_img/artificial-intelligence/clarity-gpt-2.jpg" style="max-width: 169px; height: 300px;" alt="clarity-gpt">
+  </div>
 
   **내용 요약**
 
@@ -290,8 +320,11 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
 
 중복 요소를 제거하기 위한 알고리즘을 어떻게 해결하는지를 분석한다.
 
-- **A.X**  
-  ![problem-solving-ax](/assets/images/posts_img/artificial-intelligence/problem-solving-ax.jpg) ![problem-solving-ax](/assets/images/posts_img/artificial-intelligence/problem-solving-ax-2.jpg)
+- **A.X**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/problem-solving-ax.jpg" style="max-width: 169px; height: 300px;" alt="problem-solving-ax">
+    <img src="/assets/images/posts_img/artificial-intelligence/problem-solving-ax.jpg" style="max-width: 169px; height: 300px;" alt="problem-solving-ax">
+  </div>
 
   **내용 요약**
 
@@ -308,8 +341,11 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
 
   <br />
 
-- **Perplexity**  
-  ![problem-solving-perplexity](/assets/images/posts_img/artificial-intelligence/problem-solving-perplexity.jpg) ![problem-solving-perplexity](/assets/images/posts_img/artificial-intelligence/problem-solving-perplexity-2.jpg)
+- **Perplexity**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/problem-solving-perplexity.jpg" style="max-width: 169px; height: 300px;" alt="problem-solving-perplexity">
+    <img src="/assets/images/posts_img/artificial-intelligence/problem-solving-perplexity-2.jpg" style="max-width: 169px; height: 300px;" alt="problem-solving-perplexity">
+  </div>
 
   **내용 요약**
 
@@ -326,8 +362,11 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
 
   <br />
 
-- **Claude**  
-  ![problem-solving-claude](/assets/images/posts_img/artificial-intelligence/problem-solving-claude.jpg) ![problem-solving-claude](/assets/images/posts_img/artificial-intelligence/problem-solving-claude-2.jpg)
+- **Claude**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/problem-solving-claude.jpg" style="max-width: 169px; height: 300px;" alt="problem-solving-claude">
+    <img src="/assets/images/posts_img/artificial-intelligence/problem-solving-claude-2.jpg" style="max-width: 169px; height: 300px;" alt="problem-solving-claude">
+  </div>
 
   **내용 요약**
 
@@ -344,8 +383,11 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
 
   <br />
 
-- **GPT**  
-  ![problem-solving-gpt](/assets/images/posts_img/artificial-intelligence/problem-solving-gpt.jpg) ![problem-solving-gpt](/assets/images/posts_img/artificial-intelligence/problem-solving-gpt-2.jpg)
+- **GPT**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/problem-solving-gpt.jpg" style="max-width: 169px; height: 300px;" alt="problem-solving-gpt">
+    <img src="/assets/images/posts_img/artificial-intelligence/problem-solving-gpt-2.jpg" style="max-width: 169px; height: 300px;" alt="problem-solving-gpt">
+  </div>
 
   **내용 요약**
 
@@ -368,8 +410,10 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
 
 파이썬으로 중복 요소를 제거하는 코드를 정확하게 작성할 수 있는지를 평가한다.
 
-- **A.X**  
-  ![code-writing-ax](/assets/images/posts_img/artificial-intelligence/code-writing-ax.jpg)
+- **A.X**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/code-writing-ax.jpg" style="max-width: 169px; height: 300px;" alt="code-writing-ax">
+  </div>
 
   **내용 요약**
 
@@ -386,8 +430,11 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
 
   <br />
 
-- **Perplexity**  
-  ![code-writing-perplexity](/assets/images/posts_img/artificial-intelligence/code-writing-perplexity.jpg) ![code-writing-perplexity](/assets/images/posts_img/artificial-intelligence/code-writing-perplexity-2.jpg)
+- **Perplexity**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/code-writing-perplexity.jpg" style="max-width: 169px; height: 300px;" alt="code-writing-perplexity">
+    <img src="/assets/images/posts_img/artificial-intelligence/code-writing-perplexity-2.jpg" style="max-width: 169px; height: 300px;" alt="code-writing-perplexity">
+  </div>
 
   **내용 요약**
 
@@ -404,8 +451,11 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
 
   <br />
 
-- **Claude**  
-  ![code-writing-claude](/assets/images/posts_img/artificial-intelligence/code-writing-claude.jpg) ![code-writing-claude](/assets/images/posts_img/artificial-intelligence/code-writing-claude-2.jpg)
+- **Claude**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/code-writing-claude.jpg" style="max-width: 169px; height: 300px;" alt="code-writing-claude">
+    <img src="/assets/images/posts_img/artificial-intelligence/code-writing-claude-2.jpg" style="max-width: 169px; height: 300px;" alt="code-writing-claude">
+  </div>
 
   **내용 요약**
 
@@ -423,8 +473,10 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
 
   <br />
 
-- **GPT**  
-  ![code-writing-gpt](/assets/images/posts_img/artificial-intelligence/code-writing-gpt.jpg)
+- **GPT**
+  <div style="display: flex; gap: 5px;">
+    <img src="/assets/images/posts_img/artificial-intelligence/code-writing-gpt.jpg" style="max-width: 169px; height: 300px;" alt="code-writing-gpt">
+  </div>
 
   **내용 요약**
 
