@@ -48,8 +48,8 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
 
 - **A.X**
   <div style="display: flex; overflow-x: auto; gap: 10px;">
-    ![accuracy-ax](/assets/images/posts_img/artificial-intelligence/accuracy-ax.jpg){:style="max-width: 169px; height: 300px;"}
-    ![accuracy-ax](/assets/images/posts_img/artificial-intelligence/accuracy-ax-2.jpg){:style="max-width: 169px; height: 300px;"}
+    <img src="/assets/images/posts_img/artificial-intelligence/accuracy-ax.jpg" style="max-width: 169px; height: 300px;" alt="accuracy-ax">
+    <img src="/assets/images/posts_img/artificial-intelligence/accuracy-ax-2.jpg" style="max-width: 169px; height: 300px;" alt="accuracy-ax-2">
   </div>
 
   **내용 요약**
@@ -339,7 +339,7 @@ API의 개념을 얼마나 명확하고 이해하기 쉽게 설명하는지를 �
 
 Perplexity가 전반적으로 가장 우수한 성능을 보여주었으며, Claude와 GPT가 그 뒤를 이었다. A.X는 비교적 낮은 점수를 받았지만, 정확성과 명확성에서는 다른 모델들과 대등한 성능을 보였다.
 
-## LLM 특징 분석
+## 🧭 LLM 특징 분석
 
 - **A.X**
 
