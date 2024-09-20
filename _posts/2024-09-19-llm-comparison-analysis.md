@@ -7,7 +7,7 @@ categories:
 tags:
   - [LLM, AI]
 
-permalink: /artificial-intelligence/what-is-llm/
+permalink: /artificial-intelligence/llm-comparison-analysis/
 
 toc: true
 toc_sticky: true
