@@ -46,8 +46,11 @@ A.X, Perplexity, Claude, GPT를 대상으로 동일한 질문을 통해 성능�
 
 자바스크립트의 변수 선언 방법에 대한 정확한 정보를 제공하는지 평가한다.
 
-- **A.X**  
-  ![accuracy-ax](/assets/images/posts_img/artificial-intelligence/accuracy-ax.jpg) ![accuracy-ax](/assets/images/posts_img/artificial-intelligence/accuracy-ax-2.jpg)
+- **A.X**
+  <div style="display: flex; overflow-x: auto; gap: 10px;">
+    ![accuracy-ax](/assets/images/posts_img/artificial-intelligence/accuracy-ax.jpg){:style="max-width: 169px; height: 300px;"}
+    ![accuracy-ax](/assets/images/posts_img/artificial-intelligence/accuracy-ax-2.jpg){:style="max-width: 169px; height: 300px;"}
+  </div>
 
   **내용 요약**
 
