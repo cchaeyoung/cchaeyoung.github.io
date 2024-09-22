@@ -1,13 +1,13 @@
 ---
-title: "[AI] LLM(대규모 언어 모델)이란?"
+title: "[LLM] LLM(대규모 언어 모델)이란?"
 excerpt: "대규모 언어 모델(LLM)의 정의와 배경, 주요 모델"
 
 categories:
-  - Artificial Intelligence
+  - LLM
 tags:
   - [LLM, AI]
 
-permalink: /artificial-intelligence/what-is-llm/
+permalink: /llm/what-is-llm/
 
 toc: true
 toc_sticky: true

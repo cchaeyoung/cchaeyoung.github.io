@@ -1,13 +1,13 @@
 ---
-title: "[Frontend] 리액트 - Firebase 인증 및 백엔드 데이터 관리"
+title: "[React] Firebase 인증 및 백엔드 데이터 관리"
 excerpt: "Firebase Authentication을 이용한 사용자 인증 및 Cloud Firestore를 사용한 데이터 관리 방법"
 
 categories:
-  - Frontend
+  - React
 tags:
-  - [Firebase, Frontend]
+  - [Firebase, React]
 
-permalink: /frontend/firebase-auth-backend/
+permalink: /react/firebase-auth-backend/
 
 toc: true
 toc_sticky: true

@@ -1,13 +1,13 @@
 ---
-title: "[Frontend] Vite로 리액트 프로젝트 초기화 및 기본 설정"
+title: "[React] Vite로 리액트 프로젝트 초기화 및 기본 설정"
 excerpt: "Vite 템플릿으로 리액트 프로젝트를 초기화하고 필수 라이브러리 설치 방법"
 
 categories:
-  - Frontend
+  - React
 tags:
-  - [Frontend]
+  - [React]
 
-permalink: /frontend/vite-react-setup/
+permalink: /react/vite-react-setup/
 
 toc: true
 toc_sticky: true

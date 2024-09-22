@@ -1,13 +1,13 @@
 ---
-title: "[Frontend] 리액트 인터뷰 가이드"
+title: "[React] 리액트 인터뷰 가이드"
 excerpt: "리액트 인터뷰 가이드 도서 리뷰"
 
 categories:
-  - Frontend
+  - React
 tags:
-  - [Frontend]
+  - [React]
 
-permalink: /frontend/react-interview-guide/
+permalink: /react/react-interview-guide/
 
 toc: true
 toc_sticky: true

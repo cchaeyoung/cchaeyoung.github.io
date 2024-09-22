@@ -24,26 +24,31 @@ categories:
         url: /categories/data-structures/
       - title: "Computer Architecture"
         url: /categories/computer-architecture/
-      - title: "Artificial Intelligence"
-        url: /categories/artificial-intelligence/
-      # - title: "Categories4"
-      #   url: /categories/categories4/
+      # - title: "Artificial Intelligence"
+      #   url: /categories/artificial-intelligence/
+      # # - title: "Categories4"
+      # #   url: /categories/categories4/
 
   - title: "Programming Languages"
     children:
       - title: "Python"
         url: /categories/python/
-      - title: "C"
-        url: /categories/C/
+      - title: "JavaScript"
+        url: /categories/javascript/
+      - title: "TypeScript"
+        url: /categories/typescript/
 
-  - title: "Web Development"
+  - title: "Frontend"
     children:
-      - title: "Frontend"
-        url: /categories/frontend/
-      - title: "Backend"
-        url: /categories/backend/
+      - title: "React"
+        url: /categories/react/
 
-  - title: "Activities"
+  - title: "Backend"
     children:
-      # - title: "Categories4"
-      #   url: /categories/categories4/
+      - title: "Firebase"
+        url: /categories/firebase/
+
+  - title: "Artificial Intelligence"
+    children:
+      - title: "LLM"
+        url: /categories/llm/

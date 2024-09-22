@@ -1,9 +1,9 @@
 ---
-title: "Backend"
+title: "Firebase"
 layout: category
-permalink: /categories/backend/
+permalink: /categories/firebase/
 author_profile: true
-taxonomy: Backend
+taxonomy: Firebase
 sidebar:
   nav: "categories"
 ---

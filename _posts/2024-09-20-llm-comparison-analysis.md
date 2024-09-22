@@ -1,13 +1,13 @@
 ---
-title: "[AI] LLM 비교 및 분석"
+title: "[LLM] LLM 비교 및 분석"
 excerpt: "A.X, Perplexity, Claude, GPT 비교 분석"
 
 categories:
-  - Artificial Intelligence
+  - LLM
 tags:
   - [LLM, AI]
 
-permalink: /artificial-intelligence/llm-comparison-analysis/
+permalink: /llm/llm-comparison-analysis/
 
 toc: true
 toc_sticky: true

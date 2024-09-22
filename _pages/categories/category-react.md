@@ -1,9 +1,9 @@
 ---
-title: "Frontend"
+title: "React"
 layout: category
-permalink: /categories/frontend/
+permalink: /categories/react/
 author_profile: true
-taxonomy: Frontend
+taxonomy: React
 sidebar:
   nav: "categories"
 ---

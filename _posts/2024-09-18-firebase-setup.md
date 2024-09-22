@@ -1,13 +1,13 @@
 ---
-title: "[Frontend] Firebase 설정"
+title: "[Firebase] Firebase 설정"
 excerpt: "Firebase 주요 기능 및 Authentication, Cloud Firestore 설정 방법"
 
 categories:
-  - Frontend
+  - Firebase
 tags:
-  - [Firebase, Frontend]
+  - [Firebase]
 
-permalink: /frontend/firebase-setup/
+permalink: /firebase/firebase-setup/
 
 toc: true
 toc_sticky: true
