@@ -7,7 +7,7 @@ categories:
 tags:
   - [Frontend]
 
-permalink: /frontend/react/react-interview-guide/
+permalink: /frontend/react-interview-guide/
 
 toc: true
 toc_sticky: true
