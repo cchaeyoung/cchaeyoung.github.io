@@ -36,12 +36,21 @@ categories:
       - title: "C"
         url: /categories/C/
 
-  - title: "Web Development"
-    children:
-      - title: "Frontend"
-        url: /categories/frontend/
-      - title: "Backend"
-        url: /categories/backend/
+- title: "Web Development"
+  children:
+    - title: "Frontend"
+      children:
+        - title: "React"
+          url: /categories/frontend/react/
+        - title: "Next.js"
+          url: /categories/frontend/nextjs/
+
+  # - title: "Web Development"
+  #   children:
+  #     - title: "Frontend"
+  #       url: /categories/frontend/
+  #     - title: "Backend"
+  #       url: /categories/backend/
 
   - title: "Activities"
     children:

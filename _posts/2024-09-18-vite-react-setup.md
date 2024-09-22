@@ -7,7 +7,7 @@ categories:
 tags:
   - [Frontend]
 
-permalink: /frontend/vite-react-setup/
+permalink: /frontend/react/vite-react-setup/
 
 toc: true
 toc_sticky: true

@@ -7,7 +7,7 @@ categories:
 tags:
   - [Firebase, Frontend]
 
-permalink: /frontend/firebase-setup/
+permalink: /frontend/react/firebase-setup/
 
 toc: true
 toc_sticky: true

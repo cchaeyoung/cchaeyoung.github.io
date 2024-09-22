@@ -7,7 +7,7 @@ categories:
 tags:
   - [Firebase, Frontend]
 
-permalink: /frontend/firebase-auth-backend/
+permalink: /frontend/react/firebase-auth-backend/
 
 toc: true
 toc_sticky: true
