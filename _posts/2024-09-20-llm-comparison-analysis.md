@@ -7,7 +7,7 @@ categories:
 tags:
   - [LLM, AI]
 
-permalink: /llm/llm-comparison-analysis/
+permalink: /artificial-intelligence/llm-comparison-analysis/
 
 toc: true
 toc_sticky: true
