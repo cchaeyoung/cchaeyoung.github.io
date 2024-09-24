@@ -12,8 +12,8 @@ permalink: /typescript/basic-types/
 toc: true
 toc_sticky: true
 
-date: 2024-09-25
-last_modified_at: 2024-09-25
+date: 2024-09-24
+last_modified_at: 2024-09-24
 ---
 
 # 🧩 기본 타입
