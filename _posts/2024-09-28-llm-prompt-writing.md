@@ -7,7 +7,7 @@ categories:
 tags:
   - [LLM, AI]
 
-permalink: /artificial-intelligence/prompt-writing/
+permalink: /llm/prompt-writing/
 
 toc: true
 toc_sticky: true
