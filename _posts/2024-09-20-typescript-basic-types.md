@@ -12,7 +12,7 @@ permalink: /typescript/basic-types/
 toc: true
 toc_sticky: true
 
-date: 2024-09-24
+date: 2024-09-20
 last_modified_at: 2024-09-24
 ---
 
