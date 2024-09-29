@@ -55,5 +55,5 @@ categories:
 
   - title: "Study Log"
     children:
-      -title: "Project Camp"
+      - title: "Project Camp"
         url: /categories/project-camp/
