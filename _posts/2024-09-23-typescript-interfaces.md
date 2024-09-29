@@ -12,7 +12,7 @@ permalink: /typescript/interfaces
 toc: true
 toc_sticky: true
 
-date: 2024-09-23
+date: 2024-09-23 10:00:00
 last_modified_at: 2024-09-29
 ---
 
