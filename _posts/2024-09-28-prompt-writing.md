@@ -151,14 +151,15 @@ last_modified_at: 2024-09-28
 
 # 🔍 프롬프트 답변 모델 비교
 
-프롬프트를 바탕으로 GPT-4와 Claude에게 "파이썬의 반복문"에 대해 설명해 달라고 요청하였다. 두 모델의 접근 방식을 살펴보면 각기 다른 점과 유사점을 확인할 수 있다:
+프롬프트를 바탕으로 에이닷 앱의 멀티 LLM 에이전트를 활용해 **GPT-4**와 **Claude**에게 "파이썬의 반복문"에 대해 설명해 달라고 요청하였다. 두 모델의 접근 방식을 살펴보면 각기 다른 점과 유사점을 확인할 수 있다:
 
-- GPT(4o)
+- **GPT(4o)**
   <div style="display: flex; gap: 5px;">
     <img src="/assets/images/posts_img/artificial-intelligence/gpt-response-model-1.png" style="max-width: 169px; height: 300px;" alt="gpt-response-model-1">
     <img src="/assets/images/posts_img/artificial-intelligence/gpt-response-model-2.png"  style="max-width: 169px; height: 300px;" alt="gpt-response-model-2">
   </div>
-- Claude(3 Opus)
+
+- **Claude(3 Opus)**
   <div style="display: flex; gap: 5px;">
     <img src="/assets/images/posts_img/artificial-intelligence/claude-response-model-1.png" style="max-width: 169px; height: 300px;" alt="claude-response-model-1">
     <img src="/assets/images/posts_img/artificial-intelligence/claude-response-model-2.png"  style="max-width: 169px; height: 300px;" alt="claude-response-model-2">
