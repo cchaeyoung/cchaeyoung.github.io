@@ -1,5 +1,5 @@
 ---
-title: "[TypeScript] 타입스크립트의 타입 별칭"
+title: "[TypeScript] 타입 별칭"
 excerpt: "타입 별칭의 정의, 기본 사용법, 복잡한 타입 구조 생성, 재사용과 확장"
 
 categories:

@@ -1,5 +1,5 @@
 ---
-title: "[TypeScript] 타입스크립트의 타입 오퍼레이터"
+title: "[TypeScript] 타입 오퍼레이터"
 excerpt: "유니언 타입, 인터섹션 타입, keyof, typeof, 인덱스 접근 타입, 조건부 타입"
 
 categories:

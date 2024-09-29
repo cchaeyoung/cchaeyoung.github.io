@@ -1,5 +1,5 @@
 ---
-title: "[TypeScript] 타입스크립트 기본 데이터 타입"
+title: "[TypeScript] 기본 데이터 타입"
 excerpt: "타입스크립트의 기본 데이터 타입에 대한 설명과 예시"
 
 categories:
