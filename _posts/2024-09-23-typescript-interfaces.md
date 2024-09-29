@@ -1,5 +1,5 @@
 ---
-title: "[TypeScript] 인터페이스
+title: "[TypeScript] 인터페이스"
 excerpt: "인터페이스의 정의, 문법, 기본 사용법, 병합, 상속, 인덱스 시그니처"
 
 categories:
