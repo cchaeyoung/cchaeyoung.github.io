@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes"
 
 # plum skin 활용하여 색상 설정함. 변경하려면 _sass/minimal-mistakes/skins/_plum.scss 에서 변경하거나
 # 해당 디렉토리 내의 다른 테마로 변경 가능 (minimal-mistakes 기본 제공 테마)
@@ -58,9 +58,9 @@ reCaptcha:
 atom_feed:
   path: # blank (default) uses feed.xml
   hide: # true, false (default)
-search: # true, false (default)
-search_full_content: # true, false (default)
-search_provider: # google
+search: false # true, false (default)
+search_full_content: false # true, false (default)
+search_provider: false # google
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
