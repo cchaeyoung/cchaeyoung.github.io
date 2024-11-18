@@ -55,7 +55,27 @@ include breadcrumbs.html %} {% endunless %} {% endif %}
             class="toc__menu" skip_no_ids=true %}
           </nav>
         </aside>
-        {% endif %} {{ content }} {% if page.link %}
+        {% endif %} {{ content }}
+
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3565036854281938"
+          crossorigin="anonymous"
+        ></script>
+        <!-- display\ -->
+        <ins
+          class="adsbygoogle"
+          style="display: block"
+          data-ad-client="ca-pub-3565036854281938"
+          data-ad-slot="2663831599"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+        {% if page.link %}
         <div>
           <a href="{{ page.link }}" class="btn btn--primary"
             >{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct
@@ -64,25 +84,6 @@ include breadcrumbs.html %} {% endunless %} {% endif %}
         </div>
         {% endif %}
       </section>
-
-      <!-- 광고 -->
-      <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3565036854281938"
-        crossorigin="anonymous"
-      ></script>
-      <!-- display ad -->
-      <ins
-        class="adsbygoogle"
-        style="display: block"
-        data-ad-client="ca-pub-3565036854281938"
-        data-ad-slot="8713127405"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
