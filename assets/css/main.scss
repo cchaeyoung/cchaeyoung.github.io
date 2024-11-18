@@ -25,9 +25,12 @@
   src: url(/assets/css/fonts/RIDIBatang.otf);
 }
 
+a.google-anno,
 .google-anno-t,
-.google-anno {
-  text-decoration: none !important;
+.google-anno svg,
+.google-anno path {
   pointer-events: none !important;
+  text-decoration: none !important;
   border: none !important;
+  display: none !important;
 }
