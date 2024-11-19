@@ -12,10 +12,9 @@ permalink: /javascript/javascript-data-types/
 toc: true
 toc_sticky: true
 
-date: 2024-11-19
+date: 2024-11-19 22:00:00
 last_modified_at: 2024-11-19
 
-order: 3
 ---
 
 # 📚 데이터 타입이란?
