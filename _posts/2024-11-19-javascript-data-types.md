@@ -14,6 +14,8 @@ toc_sticky: true
 
 date: 2024-11-19
 last_modified_at: 2024-11-19
+
+order: 3
 ---
 
 # 📚 데이터 타입이란?
@@ -142,7 +144,7 @@ console.log(typeof []); // "object"
 console.log(typeof function () {}); // "function"
 ```
 
-> 💡 **`typeof null`**이 `"object"`를 반환하는 이유는 자바스크립트 초기 설계의 **버그**로, 지금도 그대로 유지되고 있다.
+💡 **`typeof null`**이 `"object"`를 반환하는 이유는 자바스크립트 초기 설계의 **버그**로, 지금도 그대로 유지되고 있다.
 
 ---
 
