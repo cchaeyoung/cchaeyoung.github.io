@@ -20,10 +20,12 @@ main:
 categories:
   - title: "Computer Science"
     children:
-      - title: "Data Structures"
-        url: /categories/data-structures/
       - title: "Computer Architecture"
         url: /categories/computer-architecture/
+      - title: "Data Structures"
+        url: /categories/data-structures/
+      - title: "Algorithm"
+        url: /categories/algorithm/
       # - title: "Artificial Intelligence"
       #   url: /categories/artificial-intelligence/
       # # - title: "Categories4"
