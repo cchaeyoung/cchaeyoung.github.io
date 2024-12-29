@@ -12,7 +12,7 @@ permalink: /algorithm/algorithm-time-space-complexity/
 toc: true
 toc_sticky: true
 
-date: 2024-12-09 00:00:00
+date: 2024-12-09
 last_modified_at: 2024-12-09
 ---
 
