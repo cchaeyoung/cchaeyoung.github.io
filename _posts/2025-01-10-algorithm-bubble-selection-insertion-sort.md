@@ -7,7 +7,7 @@ categories:
 tags:
   - [Algorithm]
 
-permalink: /algorithm/algorithm-basic-sorting/
+permalink: /algorithm/bubble-selection-insertion-sort/
 
 toc: true
 toc_sticky: true
