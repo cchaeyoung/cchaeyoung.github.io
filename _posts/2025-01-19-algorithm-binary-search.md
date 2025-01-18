@@ -12,11 +12,8 @@ permalink: /algorithm/binary-search/
 toc: true
 toc_sticky: true
 
-date: 2025-01-19
-last_modified_at: 2025-01-19
-
-future: true
-published: true
+date: 2025-01-18
+last_modified_at: 2025-01-18
 ---
 
 # 🔍 이분 탐색이란?
