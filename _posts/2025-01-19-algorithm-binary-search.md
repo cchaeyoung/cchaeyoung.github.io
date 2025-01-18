@@ -16,6 +16,7 @@ date: 2025-01-19
 last_modified_at: 2025-01-19
 
 future: true
+published: true
 ---
 
 # 🔍 이분 탐색이란?
