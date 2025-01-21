@@ -121,7 +121,7 @@ console.log(findMinDVDSize(videoSizes, 3)); // 결과: 17
 
 특정 높이로 나무들을 잘랐을 때, 잘린 나무 조각의 합이 `M`미터 이상이 되는 높이의 **최댓값**을 구하는 문제이다.
 
-```
+```javascript
 function getWoodAmount(trees, height) {
   return trees.reduce((sum, tree) => {
     return sum + (tree > height ? tree - height : 0);
@@ -149,7 +149,7 @@ function findMaxHeight(trees, required) {
 }
 
 const trees = [20, 15, 10, 17];
-console.log(findMaxHeight(trees, 7));  // 결과: 15
+console.log(findMaxHeight(trees, 7)); // 결과: 15
 ```
 
 위 코드는 `getWoodAmount` 함수로 잘린 나무의 총량을 계산하고, `findMaxHeight` 함수로 이분 탐색을 통해 최대 높이를 찾는다.
