@@ -3,11 +3,11 @@ title: "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 3기 - �
 excerpt: "타입스크립트와 리액트의 기초 학습"
 
 categories:
-  - Project Camp
+  - Projectcamp
 tags:
-  - [Project Camp]
+  - [Projectcamp]
 
-permalink: /project-camp/project-camp-week1/
+permalink: /projectcamp/projectcamp-week1/
 
 toc: true
 toc_sticky: true

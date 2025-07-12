@@ -57,5 +57,7 @@ categories:
 
   - title: "Study Log"
     children:
-      - title: "Project Camp"
-        url: /categories/project-camp/
+      - title: "Projectcamp"
+        url: /categories/projectcamp/
+      - title: "Boostcamp"
+        url: /categories/boostcamp/
