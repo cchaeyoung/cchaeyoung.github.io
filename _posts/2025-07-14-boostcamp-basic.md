@@ -16,7 +16,7 @@ date: 2025-07-13
 last_modified_at: 2025-07-13
 ---
 
-![boostcamp](<(/assets/images/posts_img/boostcamp/boostcamp.png)>)
+![boostcamp](/assets/images/posts_img/boostcamp/boostcamp.png)
 
 네이버 부스트캠프 10기 베이직 과정을 마치며, 2주간의 짧지만 밀도 있는 학습 여정을 돌아보고자 한다.
 
@@ -24,7 +24,7 @@ last_modified_at: 2025-07-13
 
 # 🔷 부스트캠프 베이직
 
-![basic](basic.png)
+![basic](/assets/images/posts_img/boostcamp/basic.png)
 
 부스트캠프는 **베이직 → 챌린지 → 멤버십** 순으로 진행된다.  
 그중 **베이직 과정**은 문제 해결의 기본기를 연습하고, 자기 주도적인 학습 태도를 기르는 데 초점을 맞추고 있다.
@@ -69,6 +69,8 @@ last_modified_at: 2025-07-13
 정리하는 과정 자체가 하나의 학습이자 복습이 되었다.
 
 이 경험을 통해, **코드를 짜는 것만큼 그 과정을 설명하는 능력도 개발자에게 중요한 역량**이라는 걸 확실히 느낄 수 있었다.
+
+---
 
 # 😅 아쉬웠던 점
 
