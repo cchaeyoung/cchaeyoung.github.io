@@ -50,6 +50,13 @@ categories:
       - title: "Firebase"
         url: /categories/firebase/
 
+  - title: "Tools"
+    children:
+      - title: "Git"
+        url: /categories/git/
+      - title: "Code Editor"
+        url: /categories/code-editor/
+
   - title: "Artificial Intelligence"
     children:
       - title: "LLM"
