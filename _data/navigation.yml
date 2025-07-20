@@ -58,6 +58,8 @@ categories:
         url: /categories/code-editor/
       - title: "Linux"
         url: /categories/linux/
+      - title: "Data Formats"
+        url: /categories/data-formats/
 
   - title: "Artificial Intelligence"
     children:
