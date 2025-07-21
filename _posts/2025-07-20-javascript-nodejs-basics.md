@@ -12,8 +12,8 @@ permalink: /javascript/nodejs-basics
 toc: true
 toc_sticky: true
 
-date: 2025-07-14
-last_modified_at: 2025-07-20T21:00
+date: 2025-07-21
+last_modified_at: 2025-07-21T15:00
 ---
 
 브라우저가 아닌 환경에서 JavaScript를 실행할 수 있게 해주는 Node.js에 대해 알아보고자 한다.

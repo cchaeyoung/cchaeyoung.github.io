@@ -12,7 +12,7 @@ permalink: /javascript/class
 toc: true
 toc_sticky: true
 
-date: 2025-07-21T00:00:00
+date: 2025-07-21T02:00:00
 last_modified_at: 2025-07-21T14:00:00
 ---
 
