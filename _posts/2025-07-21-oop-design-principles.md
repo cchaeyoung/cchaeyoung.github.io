@@ -12,7 +12,7 @@ permalink: /software-engineering/oop-design-principles
 toc: true
 toc_sticky: true
 
-date: 2025-07-21
+date: 2025-07-21T14:00
 last_modified_at: 2025-07-21T14:00
 ---
 
