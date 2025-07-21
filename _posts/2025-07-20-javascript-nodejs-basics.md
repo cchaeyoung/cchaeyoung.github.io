@@ -46,7 +46,7 @@ last_modified_at: 2025-07-21T15:00
   console.log("Hello, Node.js!");
 
   const name = "개발자";
-  const greeting = `안녕하세요, ${name}님!`;
+  const greeting = `안녕하세요, ${name}님`;
   console.log(greeting);
   ```
 
