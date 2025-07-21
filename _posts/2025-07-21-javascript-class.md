@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 
 date: 2025-07-21T00:00:00
-last_modified_at: 2025-07-21T14:00
+last_modified_at: 2025-07-21T14:00:00
 ---
 
 JavaScript로 클래스 문법을 사용해 객체를 만들고 관리하는 방법을 알아보고자 한다.
