@@ -12,7 +12,7 @@ permalink: /software-engineering/what-is-object
 toc: true
 toc_sticky: true
 
-date: 2025-07-21T13:00
+date: 2025-07-21T00:00:00
 last_modified_at: 2025-07-21T13:00
 ---
 
