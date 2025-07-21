@@ -62,7 +62,7 @@ last_modified_at: 2025-07-21T15:00
 
 - **REPL 모드**
 
-  터미널에서 `node`만 입력하면 대화형 JavaScript 환경이 시작된다.
+  터미널에서 `node` 만 입력하면 대화형 JavaScript 환경이 시작된다.
 
   ![repl](/assets/images/posts_img/javascript/repl.png)
 
