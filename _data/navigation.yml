@@ -28,6 +28,8 @@ categories:
         url: /categories/algorithm/
       - title: "Software Engineering"
         url: /categories/software-engineering/
+      - title: "Operating Systems"
+        url: /categories/operating-systems/
       # - title: "Artificial Intelligence"
       #   url: /categories/artificial-intelligence/
       # # - title: "Categories4"
