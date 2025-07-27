@@ -69,7 +69,7 @@ last_modified_at: 2025-07-25T00:00
 
 - Promise
 
-👉 **[프로세스와 스레드 학습 정리](/operating-systems/async-queue-promise-basics)**
+👉 **[비동기 대기큐와 Promise 학습 정리](/operating-systems/async-queue-promise-basics)**
 
 ---
 
