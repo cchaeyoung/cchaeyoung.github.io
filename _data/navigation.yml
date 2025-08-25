@@ -48,6 +48,8 @@ categories:
     children:
       - title: "React"
         url: /categories/react/
+      - title: "Rendering"
+        url: /categories/rendering/
 
   - title: "Backend"
     children:
