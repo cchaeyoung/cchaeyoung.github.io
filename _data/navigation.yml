@@ -64,6 +64,8 @@ categories:
         url: /categories/linux/
       - title: "Data Formats"
         url: /categories/data-formats/
+      - title: "Developer Tools"
+        url: /categories/developer-tools/
 
   - title: "Artificial Intelligence"
     children:
