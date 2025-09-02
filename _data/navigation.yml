@@ -44,6 +44,9 @@ categories:
       - title: "TypeScript"
         url: /categories/typescript/
 
+  - title: "Web"
+    url: /categories/web/
+
   - title: "Frontend"
     children:
       - title: "React"
