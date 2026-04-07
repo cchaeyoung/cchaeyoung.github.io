@@ -1,4 +1,73 @@
 /* ==========================================================================
+   Post list - 구분선
+   ========================================================================== */
+
+.list__item {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.list__item:last-child {
+  border-bottom: none;
+}
+
+/* ==========================================================================
+   Pagination
+   ========================================================================== */
+
+.pagination ul {
+  display: flex;
+  gap: 4px;
+}
+
+.pagination li {
+  margin-left: 0;
+}
+
+.pagination li a {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  color: #555;
+  font-size: 0.85em;
+  padding: 0.45em 0.9em;
+}
+
+.pagination li a:hover {
+  border-color: #ff6c02;
+  color: #ff6c02;
+}
+
+.pagination li a.current,
+.pagination li a.current.disabled {
+  background: #ff6c02;
+  border-color: #ff6c02;
+  color: #fff;
+}
+
+.pagination li a.disabled {
+  border-color: #f0f0f0;
+  color: #ccc;
+}
+
+.pagination li:first-child a,
+.pagination li:last-child a {
+  border-radius: 4px;
+}
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.author__avatar img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar.sticky::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* ==========================================================================
    Search overlay
    ========================================================================== */
 
