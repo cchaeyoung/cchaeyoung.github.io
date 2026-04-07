@@ -7,7 +7,7 @@ categories:
 tags:
   - [Data Structures]
 
-permalink: /data-structures/data-structures-concept/
+permalink: /data-structures/linked-list/
 
 toc: true
 toc_sticky: true
