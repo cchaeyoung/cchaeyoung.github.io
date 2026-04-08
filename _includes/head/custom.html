@@ -2,4 +2,38 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+<!-- Dark mode: apply saved theme before paint to prevent flash -->
+<script>
+  (function () {
+    var theme = sessionStorage.getItem("theme");
+    if (theme === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+      var light = document.getElementById("theme_source");
+      var dark = document.getElementById("theme_source_dark");
+      if (light) light.setAttribute("rel", "stylesheet alternate");
+      if (dark) dark.setAttribute("rel", "stylesheet");
+    }
+  })();
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var toggle = document.getElementById("dark-mode-toggle");
+    if (!toggle) return;
+    toggle.addEventListener("click", function () {
+      var light = document.getElementById("theme_source");
+      var dark = document.getElementById("theme_source_dark");
+      if (light.getAttribute("rel") === "stylesheet") {
+        light.setAttribute("rel", "stylesheet alternate");
+        dark.setAttribute("rel", "stylesheet");
+        sessionStorage.setItem("theme", "dark");
+        document.documentElement.setAttribute("data-theme", "dark");
+      } else {
+        dark.setAttribute("rel", "stylesheet alternate");
+        light.setAttribute("rel", "stylesheet");
+        sessionStorage.setItem("theme", "light");
+        document.documentElement.removeAttribute("data-theme");
+      }
+    });
+  });
+</script>
+
 <!-- end custom head snippets -->

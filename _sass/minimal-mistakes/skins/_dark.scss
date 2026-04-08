@@ -3,36 +3,50 @@
    ========================================================================== */
 
 /* Colors */
-// $background-color: #252a34 !default;
-$background-color: rgb(5, 5, 5) !default;
-
-// $text-color: #eaeaea !default;
-$text-color: rgb(255, 255, 255) !default;
-// $primary-color: #00adb5 !default;
+$background-color: #1e1e1e !default;
+$text-color: #eeeeee !default;
 $primary-color: mix(rgb(14, 221, 24), $background-color, 90%) !default;
 
-$border-color: mix(#000, $background-color, 20%) !default;
+/* Grayscaled colors for dark mode */
+$gray: #888888 !default;
+$dark-gray: #bbbbbb !default;
+$darker-gray: #dddddd !default;
+$light-gray: #444444 !default;
+$lighter-gray: #333333 !default;
 
-$code-background-color: mix(#000, $background-color, 20%) !default;
-$code-background-color-dark: mix(#000, $background-color, 20%) !default;
+$muted-text-color: #aaaaaa !default;
+$border-color: #333333 !default;
 
-$mark-highlight-color: rgba(114, 240, 41, 0.3) !default;
-$block-quote-background-color: rgba(114, 240, 41, 0.116) !default;
+$code-background-color: #252525 !default;
+$code-background-color-dark: #1a1a1a !default;
 
+$mark-highlight-color: rgba($primary-color, 0.25) !default;
+$block-quote-background-color: rgba($primary-color, 0.1) !default;
 
-$form-background-color: mix(#000, $background-color, 15%) !default;
-$footer-background-color: mix(#000, $background-color, 30%) !default;
-$link-color: mix($primary-color, $text-color, 40%) !default;
+$form-background-color: #2a2a2a !default;
+$footer-background-color: #1a1a1a !default;
+$link-color: mix($primary-color, $text-color, 45%) !default;
 $link-color-hover: mix(#fff, $link-color, 25%) !default;
 $link-color-visited: mix(#000, $link-color, 25%) !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
+html,
+body {
+  color: $text-color;
+  background-color: $background-color;
+}
+
+mark {
+  color: #fff !important;
+  background-color: $mark-highlight-color !important;
+}
+
 .author__urls.social-icons i,
 .author__urls.social-icons .svg-inline--fa,
 .page__footer-follow .social-icons i,
-.page__footer-follow .social-icons .svg-inline--fa  {
+.page__footer-follow .social-icons .svg-inline--fa {
   color: inherit;
 }
 
@@ -43,14 +57,14 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 /* added */
 
 /* dark syntax highlighting (base16) */
-$base00: #ffffff !default;
-$base01: #e0e0e0 !default;
-$base02: #d0d0d0 !default;
-$base03: #b0b0b0 !default;
-$base04: #000000 !default;
-$base05: #101010 !default;
-$base06: #151515 !default;
-$base07: #202020 !default;
+$base00: #1e1e1e !default; // Background
+$base01: #252525 !default;
+$base02: #333333 !default;
+$base03: #75715e !default; // Comments
+$base04: #505050 !default;
+$base05: #eeeeee !default; // Foreground
+$base06: #f5f5f5 !default;
+$base07: #ffffff !default;
 $base08: #ff0086 !default;
 $base09: #fd8900 !default;
 $base0a: #aba800 !default;
@@ -63,7 +77,7 @@ $base0f: #cc6633 !default;
 .page__content {
   a,
   a:visited {
-    color: inherit;
+    color: $link-color;
   }
 }
 

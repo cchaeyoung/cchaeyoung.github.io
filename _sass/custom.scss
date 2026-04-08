@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Post list - 구분선
+   CUSTOM STYLES
    ========================================================================== */
 
 .list__item {
@@ -32,14 +32,14 @@
 }
 
 .pagination li a:hover {
-  border-color: #ff6c02;
-  color: #ff6c02;
+  border-color: $primary-color;
+  color: $primary-color;
 }
 
 .pagination li a.current,
 .pagination li a.current.disabled {
-  background: #ff6c02;
-  border-color: #ff6c02;
+  background: $primary-color;
+  border-color: $primary-color;
   color: #fff;
 }
 
@@ -65,6 +65,47 @@
 
 .sidebar.sticky::-webkit-scrollbar {
   width: 5px;
+}
+
+.dark-mode__toggle {
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  height: $nav-toggle-height;
+  border: 0;
+  outline: none;
+  color: $primary-color;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+
+  &:hover {
+    color: mix(#000, $primary-color, 25%);
+  }
+}
+
+/* 다크모드/라이트모드 아이콘 전환 */
+.icon--sun {
+  display: none !important;
+}
+.icon--moon {
+  display: block !important;
+}
+
+[data-theme="dark"] {
+  .icon--sun {
+    display: block !important;
+  }
+  .icon--moon {
+    display: none !important;
+  }
+}
+
+/* 전역 테마 전환 애니메이션 */
+body {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 /* ==========================================================================
@@ -95,7 +136,7 @@
 }
 
 .search-content .search-input:focus {
-  border-bottom-color: #ff6c02 !important;
+  border-bottom-color: $primary-color !important;
   outline: none;
 }
 
@@ -122,12 +163,12 @@
 }
 
 .search-content .archive__item-title a {
-  color: #070707;
+  color: $text-color;
   text-decoration: none;
 }
 
 .search-content .archive__item-title a:hover {
-  color: #ff6c02;
+  color: $primary-color;
 }
 
 .search-content .archive__item-excerpt {
@@ -138,5 +179,58 @@
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 1;
+  line-clamp: 1;
   -webkit-box-orient: vertical;
+}
+
+/* ==========================================================================
+   Dark mode - custom.scss 하드코딩 색상 보정
+   ========================================================================== */
+
+[data-theme="dark"] {
+  .icon--sun {
+    display: block !important;
+  }
+  .icon--moon {
+    display: none !important;
+  }
+
+  .masthead {
+    border-bottom: none !important;
+  }
+
+  .list__item {
+    border-bottom-color: #333333;
+  }
+
+  .page__taxonomy-item {
+    border-color: #444444 !important;
+  }
+
+  .pagination li a {
+    border-color: #333333;
+    color: $muted-text-color;
+  }
+
+  .pagination li a.disabled {
+    border-color: #333333;
+    color: #444;
+  }
+
+  .search-content {
+    background-color: $background-color;
+  }
+
+  .search-content .search-input {
+    color: $text-color !important;
+    border-bottom-color: $light-gray !important;
+  }
+
+  .search-content .archive__item-excerpt {
+    color: $muted-text-color;
+  }
+
+  .search-content .search-input::placeholder {
+    color: #333333;
+  }
 }
