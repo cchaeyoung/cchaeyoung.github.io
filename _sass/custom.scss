@@ -2,6 +2,10 @@
    CUSTOM STYLES
    ========================================================================== */
 
+html {
+  scroll-padding-top: 70px;
+}
+
 .list__item {
   border-bottom: 1px solid #f2f2f2;
   min-height: 125px;
