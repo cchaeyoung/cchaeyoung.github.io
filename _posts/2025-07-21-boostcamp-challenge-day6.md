@@ -7,6 +7,9 @@ categories:
 tags:
   - [Boostcamp]
 
+header:
+  teaser: /assets/images/posts_img/boostcamp/boostcamp-basic.png
+
 permalink: /boostcamp/challenge-day6
 
 toc: true
