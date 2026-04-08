@@ -31,6 +31,10 @@
   padding-top: 0;
 }
 
+.page__related .archive__item-teaser {
+  display: none;
+}
+
 .archive__item--has-teaser {
   display: flex;
   justify-content: space-between;
