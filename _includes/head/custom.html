@@ -26,11 +26,15 @@
         dark.setAttribute("rel", "stylesheet");
         sessionStorage.setItem("theme", "dark");
         document.documentElement.setAttribute("data-theme", "dark");
+        var utterancesFrame = document.querySelector('.utterances-frame');
+        if (utterancesFrame) utterancesFrame.contentWindow.postMessage({ type: 'set-theme', theme: 'github-dark' }, 'https://utteranc.es');
       } else {
         dark.setAttribute("rel", "stylesheet alternate");
         light.setAttribute("rel", "stylesheet");
         sessionStorage.setItem("theme", "light");
         document.documentElement.removeAttribute("data-theme");
+        var utterancesFrame = document.querySelector('.utterances-frame');
+        if (utterancesFrame) utterancesFrame.contentWindow.postMessage({ type: 'set-theme', theme: 'github-light' }, 'https://utteranc.es');
       }
     });
   });

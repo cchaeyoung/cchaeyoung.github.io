@@ -8,11 +8,12 @@
       return;
     }
 
+    var isDark = sessionStorage.getItem('theme') === 'dark';
     var script = document.createElement('script');
     script.setAttribute('src', 'https://utteranc.es/client.js');
     script.setAttribute('repo', 'cchaeyoung/comments');
     script.setAttribute('issue-term', '{{ site.comments.utterances.issue_term | default: "pathname" }}');
-    script.setAttribute('theme', '{{ site.comments.utterances.theme | default: "github-light" }}');
+    script.setAttribute('theme', isDark ? 'github-dark' : 'github-light');
     script.setAttribute('crossorigin', 'anonymous');
 
     commentContainer.appendChild(script);
