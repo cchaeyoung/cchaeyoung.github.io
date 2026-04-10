@@ -56,6 +56,15 @@ mark {
 
 /* added */
 
+/* TOC */
+html .toc__menu a:visited {
+  color: $text-color;
+}
+
+html .toc__menu a:hover {
+  color: $primary-color;
+}
+
 /* dark syntax highlighting (base16) */
 $base00: #1e1e1e !default; // Background
 $base01: #252525 !default;
